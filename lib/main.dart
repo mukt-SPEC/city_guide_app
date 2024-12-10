@@ -1,4 +1,5 @@
-import 'package:city_guide_app/screen/onboarding.dart';
+import 'package:city_guide_app/screen/home.dart';
+//import 'package:city_guide_app/screen/onboarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OnboardingScreen(),
+      home: HomePage(),
     );
   }
 }

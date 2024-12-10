@@ -1,8 +1,9 @@
 enum Category {
-  recreational("Recreational Sites"),
-  zoo("Zoo"),
-  musuem("Musuem"),
-  historicalSite("Historical Site");
+  all("All"),
+  recreational("🏖 Recreational Sites"),
+  zoo("🦍 Zoo"),
+  musuem("🖼 Musuem"),
+  historicalSites("🕌 Historical Site");
 
   final String name;
   const Category(this.name);

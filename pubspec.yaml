@@ -34,7 +34,6 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^6.1.2
-  shared_preferences: ^2.3.3
 
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -74,7 +73,7 @@ flutter:
           weight: 300
         - asset: assets/font/Poppins-SemiBold.ttf
           weight: 500
-        - asset: assets/font/Poppins_Bold.ttf
+        - asset: assets/font/Poppins-Bold.ttf
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
